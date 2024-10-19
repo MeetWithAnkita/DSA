@@ -37,12 +37,20 @@ void main()
         }
     }
 
-    printf("Unique numbers are :");
-    for (i=0 ; i<n ; i++)
+    // printf("duplicate numbers are :");
+    // for (i=0 ; i<n ; i++)
+    // {
+    //     if (frequency[i] > 1 )
+    //     {
+    //         printf("%d\t",arr[i]);   
+    //     }
+    // }
+    printf("Unique number: ");
+    for (i=0; i<n; i++)
     {
-        if (frequency[i] == 1 )
+        if(frequency[i] == 1)
         {
-            printf("%d\t",arr[i]);   
+            printf("%d\t",arr[i]);
         }
     }
 
