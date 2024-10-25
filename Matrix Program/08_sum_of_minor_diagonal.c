@@ -22,18 +22,12 @@ void main()
         }
         printf("\n");
     }
-    // sum of diagonal main element
+    // sum of diagonal minor element
     if(r==c)
     {
-        for(i=0;i<r;i++)
+        for (i = 0; i < r; i++) 
         {
-            for(j=0;j<c;j++)
-            {
-                    for (i = 0; i < r; i++) 
-                    {
-                    sum += arr[i][r-1-i]; // Accessing minor diagonal elements
-                    }
-            }
+            sum += arr[i][r-1-i]; // Accessing minor diagonal elements
         }
         printf("Sum of minor diagonal elements: %d",sum);
     }
@@ -41,6 +35,4 @@ void main()
     {
         printf("No of row and column are not equl, so there is no possible to calculate the minor diagonal sum. ");
     }
-    
-
 }
