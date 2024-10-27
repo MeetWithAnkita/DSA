@@ -57,8 +57,10 @@ void main()
         }
         printf("\n");
     }
+    
 
-
+    if ((r01==r02) && (c01==c02))
+    {
     // ////////////sum of two matrix//////////////
      for(i=0; i<r02; i++)
     {
@@ -76,7 +78,10 @@ void main()
         }
         printf("\n");
     }
-    
 
-
+    }
+    else
+    {
+        printf("It is not possible.");
+    }
 }
