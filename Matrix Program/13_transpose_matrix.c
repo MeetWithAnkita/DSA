@@ -1,52 +1,45 @@
 #include<stdio.h>
 void main()
 {
-    int arr[100][100],i,j,r,c,A[100][100],temp;
+    int arr[100][100], transposed[100][100];
+    int i, j, r, c;
 
     printf("Enter the row and column of a matrix: ");
-    scanf("%d%d",&r,&c);
-    printf("Enter the %d elements: ",(r*c));
-    for(i=0;i<r;i++)
+    scanf("%d%d", &r, &c);
+    printf("Enter the %d elements: ", (r * c));
+    for(i = 0; i < r; i++)
     {
-        for(j=0;j<c;j++)
+        for(j = 0; j < c; j++)
         {
-            scanf("%d",&arr[i][j]);
-            A[i][j]=arr[i][j];
+            scanf("%d", &arr[i][j]);
         }
     }
-    printf("%d * %d matrix is: \n",r,c);
-    for(i=0; i<r; i++)
+
+    printf("%d * %d matrix is:\n", r, c);
+    for(i = 0; i < r; i++)
     {
-        for(j=0; j<c; j++)
+        for(j = 0; j < c; j++)
         {
-            printf("%d ",arr[i][j]);
+            printf("%d ", arr[i][j]);
         }
         printf("\n");
     }
-    // transpose matrix 
-    // 00 01 02
-    // 10 11 12
-    // 20 21 22
-    for(i=0;i<r;i++)
+
+    // Transpose of the matrix (for non-square matrix)
+    for(i = 0; i < r; i++)
     {
-        for(j=i+1;j<c;j++)
+        for(j = 0; j < c; j++)
         {
-           if(i != j)
-           {
-                temp = arr[i][j];
-                arr[i][j] = arr[j][i];
-                arr[j][i] = temp ; 
-           }
-                        
+            transposed[j][i] = arr[i][j];
         }
     }
 
     printf("The matrix after transpose:\n");
-    for(i=0; i<r;i++)
+    for(i = 0; i < c; i++) // Rows of transposed matrix become columns of original
     {
-        for(j=0;j<c;j++)
+        for(j = 0; j < r; j++) // Columns of transposed matrix become rows of original
         {
-            printf("%d ",arr[i][j]);
+            printf("%d ", transposed[i][j]);
         }
         printf("\n");
     }
