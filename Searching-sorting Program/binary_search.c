@@ -33,5 +33,5 @@ void main()
     scanf("%d",&k);
     l=0;
     u=n-1 ;
-    bs(a,n,k,l,u);
+    bs(a,n,k,l,u)   ;
 }
