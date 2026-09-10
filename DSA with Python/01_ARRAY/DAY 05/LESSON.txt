@@ -1,0 +1,16 @@
+Day 5 — Array
+Today's topics
+
+Insert an element at a position
+Delete an element from a position
+Shift elements — left
+Shift elements — right
+Move all zeros to the end
+Separate positive and negative elements
+Remove duplicates from a sorted array
+Basic array rotation
+One-pass placement problems
+
+We'll still follow our rule:
+
+Understand → Pattern → Brute Force → Optimize if needed → Code → Complexity
