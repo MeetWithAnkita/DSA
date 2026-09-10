@@ -1,0 +1,13 @@
+Today we'll focus on:
+
+Array input from user
+Traversing with different methods
+Updating elements
+Reverse traversal
+Basic array modification
+Insertion and deletion logic
+A few small practice problems
+
+And as always:
+
+Understand → Pattern → Brute Force → Code → Dry Run → Complexity
