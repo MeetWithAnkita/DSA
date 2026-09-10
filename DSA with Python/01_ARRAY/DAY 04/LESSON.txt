@@ -1,0 +1,21 @@
+| #  | Topic                             | Status |
+| -- | --------------------------------- | ------ |
+| 1  | What is searching?                | 🔄     |
+| 2  | Linear Search                     | ⬜      |
+| 3  | Search and return index           | ⬜      |
+| 4  | Search and return Found/Not Found | ⬜      |
+| 5  | First occurrence                  | ⬜      |
+| 6  | Last occurrence                   | ⬜      |
+| 7  | Count occurrences                 | ⬜      |
+| 8  | Search with conditions            | ⬜      |
+| 9  | Small placement problems          | ⬜      |
+| 10 | Day 4 revision challenge          | ⬜      |
+
+
+Linear Search = check elements one by one until the target is found.
+
+If the target is at the beginning → very fast.
+If the target is at the end or doesn't exist → we may check the entire array.
+
+Worst-case Time: O(n)
+Extra Space: O(1)

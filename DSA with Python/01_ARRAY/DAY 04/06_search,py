@@ -1,0 +1,8 @@
+# Task: Find the first negative number and print its index and value.
+arr = [5, 12, 8, -3, 15, -7, 20]
+
+for i in range(len(arr)):
+    if arr[i] < 0 :
+        print("Index: ", i)
+        print("Value: ", arr[i])
+        break 
