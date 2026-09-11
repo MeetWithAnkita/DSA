@@ -1,0 +1,15 @@
+We'll focus on some very important Array patterns:
+
+🔹 Remove duplicates
+🔹 Find missing number
+🔹 Find duplicate number
+🔹 Frequency/counting pattern
+🔹 Prefix sum basics
+🔹 Subarray basics
+🔹 Maximum subarray sum — introduction
+🔹 Array pattern-recognition practice
+
+And remember:
+
+No separate daily test.
+After Day 7 → Grand Array Revision + Grand Test. 🎯
