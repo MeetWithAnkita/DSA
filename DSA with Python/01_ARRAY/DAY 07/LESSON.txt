@@ -1,0 +1,18 @@
+📚 Day 7 Plan
+
+Part 1 — Important patterns
+
+✅ Array reversal — review
+🔹 Left rotation by 1 / k
+🔹 Right rotation by k — optimized approach
+🔹 Partitioning an array
+🔹 Majority Element
+🔹 Leaders in an Array
+
+Part 2 — Mixed Pattern Recognition
+7. 🔹 Choose the correct approach
+8. 🔹 Brute Force → Optimization
+9. 🔹 Hashing vs Two Pointer vs Prefix Sum vs Kadane
+
+Part 3 — Interview-style practice
+10. 🔥 3–4 mixed Array problems

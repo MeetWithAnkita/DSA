@@ -13,3 +13,13 @@ And remember:
 
 No separate daily test.
 After Day 7 → Grand Array Revision + Grand Test. 🎯
+
+
+
+Hashing 🧠
+Prefix Sum
+Subarrays
+Brute Force → Optimization
+Kadane's Algorithm
+Two Sum with Hashing
+Pattern recognition

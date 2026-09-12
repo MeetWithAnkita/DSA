@@ -7,6 +7,7 @@ for i in range(len(arr)):
     total = 0
     for j in range(i, len(arr)):
         total += arr[j]
+        print(i,j,"-->",arr[i:j+1],"-->",total)
         if max_total < total:
             max_total = total 
 print("Maximum subarray sum: ", max_total)
