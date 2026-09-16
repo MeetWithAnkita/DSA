@@ -11,6 +11,7 @@ Traversal using:
 for
 range()
 enumerate()
+
 Part 2 — Basic Operations
 Concatenation
 Repetition
@@ -19,6 +20,8 @@ Comparison
 Slicing
 Reverse slicing
 String immutability
+
+
 Part 3 — Important Methods
 .lower()
 .upper()
@@ -55,3 +58,47 @@ Index
 Traverse
  ↓
 Process each character
+
+
+
+
+NOTE 
+1. Strings are immutable.
+
+That means once a String is created, its individual characters cannot be changed directly.
+
+2. | Method          | Checks / Does                             |
+| --------------- | ----------------------------------------- |
+| `.lower()`      | Converts to lowercase                     |
+| `.upper()`      | Converts to uppercase                     |
+| `.capitalize()` | First character uppercase, rest lowercase |
+| `.title()`      | First character of each word uppercase    |
+| `.swapcase()`   | Upper ↔ Lower                             |
+| `.isalpha()`    | Only alphabets?                           |
+| `.isdigit()`    | Only digits?                              |
+| `.isalnum()`    | Only alphabets/digits?                    |
+| `.isspace()`    | Only whitespace?                          |
+| `.islower()`    | Lowercase?                                |
+| `.isupper()`    | Uppercase?                                |
+
+
+3.                  STRING
+                      │
+       ┌──────────────┼──────────────┐
+       ↓              ↓              ↓
+   Indexing       Operations       Methods
+       │              │              │
+       ↓              ↓              ↓
+   s[i]          +    *          lower()
+   s[-1]         in   not in      upper()
+                 ==   !=          capitalize()
+                 <    >           title()
+                 [:]              swapcase()
+                 [::-1]           isalpha()
+                                  isdigit()
+                                  isalnum()
+                                  isspace()
+                                  islower()
+                                  isupper()
+
+
