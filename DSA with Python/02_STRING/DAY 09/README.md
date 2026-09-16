@@ -10,6 +10,7 @@ Uppercase/lowercase
 Character classification
 Character replacement
 Character removal
+
 Part 2 — Important Methods
 find()
 index()
@@ -18,15 +19,14 @@ replace()
 startswith()
 endswith()
 strip()
+
 Part 3 — Words
 
 Learn:
-
 split()
 join()
 
-Problems:
-
+/////Problems://////
 Count words
 Reverse words
 First word
@@ -46,3 +46,16 @@ Example Pattern
 Become comfortable with:
 
 Character-level + Word-level processing
+
+
+By the end of today, you should be comfortable with:
+
+Character classification
+Character replacement/removal
+Important String methods
+Splitting a sentence into words
+Joining words
+Word counting
+Reverse words
+Longest/shortest word
+Word frequency
