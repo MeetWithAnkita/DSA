@@ -18,6 +18,7 @@ banana
 b → 1
 a → 3
 n → 2
+
 Part 2 — Problems
 Character frequency
 Most frequent character
@@ -28,6 +29,7 @@ Remove duplicate characters
 Print unique characters
 First repeated character
 First non-repeating character
+
 Part 3 — Hashing Patterns
 
 Understand:
@@ -54,3 +56,19 @@ When you see:
 your brain should immediately consider:
 
 Dictionary / Hash Map.
+
+
+🎯 Today's Goals
+
+By the end of Day 10, you should be comfortable with:
+
+Dictionary basics for frequency
+Character frequency
+Word frequency
+Find most/least frequent
+Find duplicate characters
+Remove duplicates
+Find unique characters
+First repeated character
+First non-repeating character
+Recognize the Hashing pattern
