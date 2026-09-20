@@ -66,3 +66,14 @@ Recognize:
 
 Palindrome → Two Pointer
 Anagram → Sorting / Frequency
+
+
+
+
+| Technique      | Main purpose                   |
+| -------------- | ------------------------------ |
+| `set`          | Unique / Seen / Membership     |
+| `dict`         | Frequency / Key → Value        |
+| Two Pointer    | Compare/process from both ends |
+| Sliding Window | Process a continuous range     |
+| Stack          | Last-In-First-Out              |
