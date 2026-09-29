@@ -71,3 +71,22 @@ Recognize:
 "Continuous characters..."
 
 → Think Sliding Window.
+
+
+
+🎯 Today's Topics
+Topic	What we'll learn
+| Topic                        | What we'll learn                                 |
+| ---------------------------- | ------------------------------------------------ |
+| 1️⃣ Substring                | Continuous part of a string                      |
+| 2️⃣ Subsequence              | Order maintained, but not necessarily continuous |
+| 3️⃣ Substring vs Subsequence | How to identify them                             |
+| 4️⃣ Generate substrings      | Basic brute force                                |
+| 5️⃣ Check substring          | Searching patterns                               |
+| 6️⃣ Count substrings         | Different approaches                             |
+| 7️⃣ Sliding Window           | Core pattern                                     |
+| 8️⃣ Fixed Window             | Window of fixed size                             |
+| 9️⃣ Variable Window          | Window expands/shrinks                           |
+| 🔟 Longest substring        | Important interview pattern                      |
+| 1️⃣1️⃣ Unique characters     | Sliding Window + Set                             |
+| 1️⃣2️⃣ Frequency Window      | Sliding Window + Dictionary                      |
