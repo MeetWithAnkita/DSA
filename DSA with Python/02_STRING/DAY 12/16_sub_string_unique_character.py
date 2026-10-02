@@ -1,7 +1,8 @@
 # Task: 
 # Print every substring of length k that contains all unique characters.
 
-s = "aababcabc"
+# s = "aababcabc"
+s = "abcabc"
 k = 3
 left = 0
 freq = {}
@@ -21,4 +22,6 @@ for i in range(k, len(s)):
 
     if len(freq) == k:
         print(s[i-k+1 : i+1])
+
+# fixed-size sliding window with a frequency dictionary.
 
