@@ -53,3 +53,28 @@ Start recognizing:
 Brackets → Stack
 Building many characters → list + join
 Pattern matching → understand the condition first
+
+
+
+
+| Part | Topics                               |
+| ---- | ------------------------------------ |
+| 1️⃣  | Stack fundamentals                   |
+| 2️⃣  | Stack using Python `list`            |
+| 3️⃣  | `push`, `pop`, `peek/top`, `isEmpty` |
+| 4️⃣  | Reverse a string using Stack         |
+| 5️⃣  | Balanced parentheses `()[]{}`        |
+| 6️⃣  | Remove adjacent duplicates           |
+| 7️⃣  | String construction                  |
+| 8️⃣  | Pattern-based string problems        |
+| 9️⃣  | Interview-style mixed problems       |
+
+
+
+
+| Operation | Python      | Meaning     |
+| --------- | ----------- | ----------- |
+| Push      | `append()`  | Add         |
+| Pop       | `pop()`     | Remove top  |
+| Peek      | `stack[-1]` | See top     |
+| Empty     | `not stack` | Check empty |
