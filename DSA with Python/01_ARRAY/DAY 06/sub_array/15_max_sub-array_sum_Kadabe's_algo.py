@@ -24,6 +24,10 @@ max_sum = float('-inf')
 for i in range(len(arr)):
 
     # YOUR LOGIC HERE
+    # current_sum = max(element, current_sum+ element)
+    # then 
+    # max_sum = max(max_sum, current_sum)
+
     total += arr[i]
     if total < arr[i]:
         total = arr[i] 
