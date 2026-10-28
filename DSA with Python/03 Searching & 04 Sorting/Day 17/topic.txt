@@ -1,0 +1,10 @@
+Problem condition	                        Best approach
+===============================================================================
+Unsorted array	                            Linear Search
+Sorted ascending array	                    Binary Search
+Sorted descending array	                    Descending Binary Search
+Sorted array with duplicates	            First/Last Occurrence Binary Search
+Find insertion position	                    Binary Search
+Rotated sorted array	                    Modified Binary Search
+Row-wise and column-wise sorted matrix	    Staircase Search
+Fully sorted 2D matrix	                    2D Binary Search

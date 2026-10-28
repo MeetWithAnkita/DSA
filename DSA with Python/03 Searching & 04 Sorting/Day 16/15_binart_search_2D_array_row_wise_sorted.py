@@ -28,3 +28,7 @@ def search_ele(matrix, target):
 
 
 print(search_ele(matrix, target))
+
+
+# Time complexity: \(O(\log(rows * cols))\)
+# Auxiliary space: \(O(1)\)
