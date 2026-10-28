@@ -1,0 +1,5 @@
+Day	Topics
+Day 18	Sorting fundamentals, Bubble Sort, Selection Sort
+Day 19	Insertion Sort, Merge Sort
+Day 20	Quick Sort, Counting Sort
+Day 21	Python built-in sorting, algorithm comparison, complexity, mixed problems
