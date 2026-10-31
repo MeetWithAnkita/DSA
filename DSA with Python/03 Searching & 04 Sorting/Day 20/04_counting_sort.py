@@ -10,11 +10,12 @@ def counting_sort(arr):
         count[num] += 1 
 
     index = 0 
-
+    # arr1 = []
     for num in range(len(count)):
         for j in range(count[num]):
             arr[index] = num
             index += 1 
+            # arr1.append(num)
     return arr
 
 print(counting_sort(arr))
