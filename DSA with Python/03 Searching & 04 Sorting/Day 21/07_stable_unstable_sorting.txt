@@ -1,0 +1,101 @@
+What is Stable Sorting?
+A sorting algorithm is stable if equal-valued elements 
+maintain their original relative order after sorting.
+Example: 
+
+students = [
+    ("Ankita", 85),
+    ("Riya", 90),
+    ("Priya", 85),
+    ("Sneha", 90)
+]
+
+after sorting: 
+[
+    ("Ankita", 85),
+    ("Priya", 85),
+    ("Riya", 90),
+    ("Sneha", 90)
+]
+
+Notice:
+- Ankita appeared before Priya originally, and still does.
+- Riya appeared before Sneha originally, and still does.
+Even though their marks are equal, their original relative 
+order is preserved.
+
+That's Stable Sorting.
+
+
+//////////////////////////////////////////////////////////
+
+2. What is Unstable Sorting?
+An unstable sorting algorithm does not guarantee that equal
+-valued elements will maintain their original relative order.
+
+For example, if two students have equal marks, their 
+relative order may change.
+
+//////////////////////////////////////////////////////////
+
+Algorithm	    | Stable?
+===============================================
+Bubble Sort	    | Yes
+Selection Sort	| No (standard implementation)
+Insertion Sort	| Yes
+Merge Sort	    | Yes (with <= in our implementation)
+Quick Sort	    | No (standard implementation)
+Counting Sort	| Depends on implementation; 
+                | our basic version is stable only if 
+                | implemented with output positions
+
+Python's sort() and sorted() are stable. They use Timsort.
+
+Interview Label quextion answer :---------
+=========================================================
+Question	Answer
+Which algorithm does Python use for list sorting?	
+==> Timsort
+Is Timsort stable?	
+==> Yes
+Which algorithms does it combine?	
+==> Insertion Sort + Merge Sort
+Timsort is not simply Merge Sort or Insertion Sort. 
+It is a separate hybrid algorithm that uses ideas from 
+both.
+Best-case time  ?
+==> O(n)
+Worst-case time	?
+==> O(n log n)
+Is it adaptive?	
+==> Yes
+
+
+
+Algorithm	    Best	    Average	    Worst	    Space
+Bubble Sort*	O(n)	    O(n²)	    O(n²)	    O(1)
+Selection Sort	O(n²)	    O(n²)	    O(n²)	    O(1)
+Insertion Sort	O(n)	    O(n²)	    O(n²)	    O(1)
+Merge Sort	    O(n log n)  O(n log n)  O(n log n)  O(n)
+Quick Sort	    O(n log n)	O(n log n)	O(n²)	    O(log n)**
+Counting Sort	O(n+k)	    O(n+k)	    O(n+k)	    O(k)
+Timsort	        O(n)	    O(n log n)	O(n log n)	O(n)
+
+Important interview comparisons
+- Small or nearly sorted arrays: Insertion Sort.
+- Guaranteed O(n log n) time: Merge Sort.
+- Average O(n log n), in-place partitioning: Quick Sort.
+- Small integer range: Counting Sort.
+- Python built-in sorting: Timsort.
+- Optimized : Bubble Sort [No swaps are needed. 
+    The algorithm stops after one pass instead of 
+    unnecessarily completing all passes.]
+- Quick Sort uses recursion to sort smaller partitions.
+- Our Counting Sort implementation assumes values are non-negative integers.
+Quick recap for your DSA notes:--------------
+Term	                    Meaning
+Optimized Bubble Sort	    Stops early if no swaps occur
+Quick Sort average stack	O(log n)
+Quick Sort worst stack	    O(n)
+Counting Sort k	            Maximum value + 1
+Auxiliary space	            Extra memory used by algorithm
