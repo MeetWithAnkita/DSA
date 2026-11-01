@@ -1,0 +1,173 @@
+Definition:
+
+Hashing is a technique that uses a hash function to convert
+a key into a hash value, which helps determine where data 
+should be stored and how it can be retrieved efficiently.
+
+In simple words:
+
+Hashing helps us find data quickly without checking every 
+element one by one.
+
+A hashing-based system uses a hash function to calculate a 
+storage location from the roll number.
+
+For example, imagine this simple hash function:
+h(key) = key mod 10
+
+For roll number 105: h(105) = 105 mod 10 = 5
+
+So the system uses index 5 as the storage location.
+
+Important: This is only a simplified example. We'll learn what 
+happens when two different keys get the same index later. That's 
+called a collision.
+
+Term	        Meaning
+Key	            The value used to identify data, such as roll number 105
+Hash Function	The function that calculates a hash value
+Hash Table	    The data structure that stores key-associated data
+
+
+
+The main purpose of Hashing is to make data searching, 
+insertion and retrieval efficient.
+
+Operation	Linear Search	            Hash Table
+Search	    O(n)	                    O(1) average
+Insert	    O(1) at end of array	    O(1) average
+Delete	    O(n) if searching by value	O(1) average
+
+Hash table performance can degrade to O(n) in the worst case
+because of collisions.
+
+
+Where do we use Hashing in real life?
+i> Banking systems
+
+Account numbers are used as keys to locate customer records
+efficiently.
+
+ii> E-commerce
+
+Product IDs help systems locate product information.
+
+iii> Password security
+
+Passwords are stored using cryptographic hashes, rather 
+than ordinary reversible storage.
+
+iv> Caching
+
+Hash-based structures help retrieve previously stored 
+results quickly.
+
+
+Important: Hashing does not mean sorting!
+Remember this difference:
+Sorting	                    || Hashing
+=================================================================
+Arranges elements in order	|| Maps keys to storage locations
+Example: [3,1,2] → [1,2,3]	|| Example: key 25 → index 5
+Used for ordering	        || Used for efficient lookup
+
+Hashing does not guarantee that elements are stored in sorted order.
+
+
+A Hash Function is a function that takes a key as input and
+produces a hash value (often used to calculate an index in 
+a hash table).
+
+Let's use: h(key) = key mod 10
+
+Here % is the modulo operator. It returns the remainder.
+
+
+Properties of a Good Hash Function---------------
+1> Deterministic: 
+The same key should always produce the same hash value.
+
+2> Uniform Distribution
+A good hash function should distribute keys across different available 
+indexes as evenly as possible. Uniform distribution helps reduce collisions.
+
+3> Efficient to Calculate
+The hash function should calculate the hash value quickly.
+We don't want an expensive calculation every time we insert or search 
+for data.
+
+4> Valid Index Range
+If a hash table has 10 slots, its valid indexes are:
+0,1,2,...,9
+
+The hash function must produce an index within this range.
+
+What is a Hash Table?
+A Hash Table is a data structure that stores information using keys and 
+their associated values.
+Python's dictionary (dict) is implemented using a hash table.
+A Python set also uses hashing internally.
+***...In Python Hashing = [Set + DIctionary]
+
+Important: Python's actual dictionary implementation is more sophisticated 
+than our simple key % 10 example. It uses its own hashing and 
+collision-resolution mechanisms.
+student = {}
+
+# Insert
+student[101] = "Ankita"
+
+# Search / Access
+print(student[101])
+
+# Update
+student[101] = "Ankita Das"
+
+# Delete
+del student[101]
+Average time complexity of insertion, lookup and deletion is O(1).
+
+
+
+What is a Collision?
+A collision occurs when two or more different keys produce the same
+hash index.
+
+That's why we use Collision Handling Techniques.
+
+Collision Handling Techniques
+There are two major techniques you should know for DSA.
+1. Separate Chaining
+2. Open Addressing
+
+Remember these differences:
+Technique	        How it handles collisions
+=============================================================
+Chaining	        Stores multiple entries in a bucket
+Linear Probing	    Checks next available slot
+Quadratic Probing	Checks positions using squared increments
+Double Hashing	    Uses a second hash function for step size
+
+Feature	            Chaining	                Open Addressing
+=======================================================================
+Storage	            Bucket collections	        Inside table
+Collision handling	Linked list / collection	Probing
+Extra memory	    Can require extra memory	No separate chains
+Full table	        Can still insert	        Must find an empty slot
+
+
+
+Complexity analysis of collision-handling techniques
+Collision Handling	Best-case insertion	Worst-case insertion	Space complexity	Key characteristic
+======================================================================================================================================================
+Separate Chaining	O(1)	            O(n)	                O(m + n)	        Stores collided keys in the same bucket using a list/chain
+Linear Probing	    O(1)	            O(m)	                O(m)	            Checks the next available slot sequentially
+Quadratic Probing	O(1)	            O(m)	                O(m)	            Checks slots using quadratic jumps
+Double Hashing	    O(1)	            O(m)	                O(m)	            Uses a second hash function to calculate the jump size
+
+
+What do n and m mean?
+- n = Number of keys/elements to insert.
+- m = Size of the hash table.
+
+

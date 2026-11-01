@@ -1,0 +1,19 @@
+Recommended Hashing roadmap — 6 days
+Day	Topics to cover
+Day 22	Hashing fundamentals, hash functions, hash tables, collisions, collision handling
+Day 23	Python dictionaries, sets, frequency counting, dictionary methods
+Day 24	Two Sum, duplicates, intersection, union, missing and repeated elements
+Day 25	First non-repeating/repeating element, anagrams, pair-sum problems
+Day 26	Subarray Sum Equals K, prefix sum + hashing, longest consecutive sequence
+Day 27	Advanced patterns, mixed coding problems, complexity analysis
+
+After Day 27:
+- Hashing Grand Revision
+- Hashing Grand Test
+Why I recommend 6 days
+Some problems require combining multiple concepts:
+1. Dictionary + frequency counting
+2. Set + duplicate detection
+3. Hashing + Two Pointers
+4. Prefix Sum + Hashing
+5. Hashing + subarray problems
