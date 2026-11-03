@@ -1,0 +1,24 @@
+Today's learning plan
+1. Dictionary fundamentals.
+2. Important dictionary methods.
+3. Set fundamentals.
+4. Important set methods.
+5. Frequency counting.
+6. Coding practice.
+
+//////////////////////////////////////////////////////////
+What is a dictionary?
+A Python dictionary stores data in key-value pairs.
+
+Key = Identifier
+Value = Data associated with that identifier.
+
+Method	    Purpose
+===============================================
+get(key)	Returns the value of a key
+keys()	    Returns all keys
+values()	Returns all values
+items()	    Returns key-value pairs
+update()	Adds or updates multiple entries
+pop(key)	Removes a key and returns its value
+clear()	    Removes all entries
