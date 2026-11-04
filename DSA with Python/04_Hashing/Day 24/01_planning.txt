@@ -1,0 +1,7 @@
+Day 24 – Hashing Coding Patterns
+
+We'll cover:
+1. Two Sum
+2. Find duplicates
+3. Array intersection and union
+4. Missing and repeated elements
