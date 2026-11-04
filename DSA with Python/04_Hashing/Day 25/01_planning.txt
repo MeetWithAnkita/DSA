@@ -1,0 +1,7 @@
+Today's roadmap
+Question	Topic
+Q1	First non-repeating element
+Q2	First repeating element
+Q3	Check whether two strings are anagrams
+Q4	Group/count anagrams
+Q5	Find pairs with a given sum
