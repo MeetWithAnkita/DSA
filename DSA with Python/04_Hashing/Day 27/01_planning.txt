@@ -1,0 +1,17 @@
+Today's roadmap
+Part	Topic
+1	Advanced Hashing patterns
+2	Top K Frequent Elements
+3	Sort Characters by Frequency
+4	Longest Consecutive Sequence — optimized practice
+5	Mixed Hashing Problems
+6	Time and Space Complexity analysis
+
+
+
+Pattern	            Main technique	Common use
+---------------------------------------------------------
+Frequency Map	    Dictionary	    Count occurrences
+Lookup Map	        Dictionary	    Two Sum
+Membership Set	    Set	Duplicate   detection
+Prefix Sum Map	    Dictionary	    Subarray sum problems
