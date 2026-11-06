@@ -1,0 +1,6 @@
+No.	Topic	                        What you'll learn
+1	Prefix Sum Fundamentals	        Concept, formula, and construction
+2	Prefix Sum Array	            Calculate range sums efficiently
+3	Subarray Sum Equals K	        Count subarrays whose sum equals K using a dictionary
+4	Longest Subarray                with Sum K	Find the longest subarray with a given sum
+5	Longest Consecutive Sequence	Find the longest consecutive number sequence using a set
