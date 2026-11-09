@@ -1,0 +1,7 @@
+What is a Linked List?
+A Linked List is a linear data structure where elements are stored in separate objects called nodes.
+
+Each node contains two things:
+1. data – the value stored in the node.
+2. next – a reference to the next node.
+
