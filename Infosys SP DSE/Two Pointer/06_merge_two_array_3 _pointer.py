@@ -32,3 +32,6 @@ Time complexity: O(m+n).
 
 Extra space complexity: O(1).
 '''
+
+'''
+Use 3 pointer + in place modification'''
