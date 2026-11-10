@@ -1,2 +1,7 @@
 The group of consecutive elements is called a window.
 
+Fixed-size window	            Variable-size window
+===========================================================
+Window size stays fixed	        Window size changes
+Given k	                        Depends on a condition
+Add incoming, remove outgoing	Expand or shrink as needed
