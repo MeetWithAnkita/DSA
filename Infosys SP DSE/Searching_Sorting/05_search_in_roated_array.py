@@ -1,0 +1,29 @@
+nums = [4, 5, 6, 7, 0, 1, 2]
+target = 3
+
+# Expected output: -1
+
+def searach(nums, target):
+    left = 0 
+    right = len(nums) - 1 
+    while left <= right:
+        # mid = (left + right) // 2 
+        mid = left + (right - left) // 2
+        if nums[mid] == target:
+            return mid 
+        else:
+            if nums[left] <= nums[mid]:
+                # left sorted 
+                if nums[left] <= target < nums[mid]:
+                    right = mid - 1 
+                else:
+                    left = mid + 1 
+            elif nums[mid] <= nums[right]:
+                # right sorted 
+                if nums[mid] < target <= nums[right]:
+                    left = mid + 1 
+                else:
+                    right = mid - 1
+    return -1
+
+print(searach(nums, target))
