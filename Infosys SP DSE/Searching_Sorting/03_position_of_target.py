@@ -11,7 +11,6 @@ def first_occurrence(nums, target):
     left = 0 
     right = len(nums) - 1 
     f_ans = -1
-    l_ans = -1
 
     while left <= right:
         mid = (left + right) // 2
